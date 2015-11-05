@@ -1,0 +1,10 @@
+h = input('What is the height: ')
+w = input('What is the width: ')
+
+h = int(h)
+w = int(w)
+
+p = h + w
+p = 2 * p
+
+print(p)
