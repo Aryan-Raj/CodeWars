@@ -1,0 +1,9 @@
+v = input('Write your voltage: ')
+o = input('Write the ohms: ')
+
+v = float(v)
+o = float(o)
+
+i = v / o
+i = i*1000
+print(i)
